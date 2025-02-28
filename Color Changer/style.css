@@ -1,0 +1,30 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
+#columns {
+    height: 50rem;    
+}
+
+#text {
+    display: grid;
+    grid-template-columns: auto;
+    grid-column-start: 1;
+    justify-content: center;
+    width: auto;
+}
+
+#buttons {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    justify-content: center;
+}
+
+button {
+    margin: 10px;
+    font-size: 2rem;
+}
