@@ -5,26 +5,30 @@ body {
     font-size: 2rem;
 }
 
-#columns {
-    height: 50rem;    
-}
-
-#text {
+.text {
     display: grid;
     grid-template-columns: auto;
-    grid-column-start: 1;
     justify-content: center;
-    width: auto;
+    width: 100%;
 }
 
-#buttons {
+.buttons {
     display: grid;
     grid-template-columns: auto auto;
     width: 100%;
     justify-content: center;
 }
 
+.reset {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-content: center;
+}
+
 button {
     margin: 10px;
     font-size: 2rem;
+    width: 10rem;
 }
